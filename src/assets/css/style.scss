@@ -1,0 +1,56 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     height: 100vh;
+     width: 100vw;
+     box-sizing: border-box;
+ }
+
+ #app {
+     width: 100%;
+     height: 100%;
+ }
+
+
+ [v-cloak] {
+     display: none;
+ }
+
+ .el-button--primary {
+     background-color: #027aff;
+     border-color: #027aff;
+ }
+
+ .el-button--primary:focus,
+ .el-button--primary:hover {
+     background-color: rgba(2, 122, 255, 0.8);
+     border-color: rgba(2, 122, 255, 0.8);
+ }
+
+ .el-button--default {
+     border-color: #027aff;
+     color: #027aff;
+     ;
+ }
+
+//  .el-button--default:focus,
+//  .el-button--default:hover {
+//      background-color: transparent;
+//      border-color: #027aff;
+//      color: #027aff;
+//      ;
+//  }
+
+ .el-badge__content {
+     border: 0px;
+ }
+ .danger{
+     color:#f56c6c !important;
+ }
+ .primary{
+     color: #66b1ff;
+     cursor: pointer;
+ }
+ .has-gutter tr{
+background-color: yellow;
+ }
